@@ -1,30 +1,32 @@
-# Acoustic Communication – Diver Alert System
+# Ultrasonic Communication System for Diver–Boat Alert Signaling
 
-## Project Aim
-To design and demonstrate a simple underwater communication system using ultrasonic waves for diver alert and signaling.
+## 🔹 Problem Statement
+Scuba divers lack a reliable, low-cost method to send emergency signals to surface boats. RF communication fails underwater due to attenuation. Existing solutions are expensive or manual.
 
-## Components Used
-- Microcontroller (Transmitter and Receiver)
-- Ultrasonic Transducers (40 kHz)
-- Push Button
-- LCD Display
-- Buzzer
-- Power Supply
-- Breadboard and connecting wires
+## 🔹 Proposed Solution
+An ultrasonic-based embedded prototype using 40 kHz transducers to transmit emergency alerts from diver to boat.
+
+## 🔹 System Architecture
+- Arduino microcontroller – controls transmission/reception
+- Ultrasonic transmitter (~40 kHz) – generates acoustic waves
+- Ultrasonic receiver – detects signals
+- Push button – triggers emergency alert
+- Buzzer + Serial Monitor – provides audible + visual feedback
+
 
 ## Working Principle
 The system consists of a transmitter and receiver connected through ultrasonic transducers. When the push button at the transmitter is pressed, an ultrasonic signal is transmitted. The receiver detects the signal and processes it using a microcontroller. After detection, a buzzer is activated and a message is displayed on the LCD.
 
-## Applications
-- Diver communication
-- Underwater alert systems
-- Aquatic safety monitoring
-- Marine research communication
+## 🔹 Results
+- Successfully transmitted signals at ~50 cm (air medium, no amplification)
+- Demonstrated feasibility of short-range underwater signaling
+- Highlighted challenges: attenuation, directional propagation, alignment
 
-## Future Improvements
-- Waterproof casing for underwater use
-- Increased communication range
-- Advanced modulation techniques (FSK or PSK)
+## 🔹 Future Improvements
+- Signal amplification for longer range
+- Waterproof housing for underwater testing
+- Error detection coding for reliable communication
+
 
 ## Limitations
 - Components are not waterproof
