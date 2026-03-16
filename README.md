@@ -30,3 +30,10 @@ The system consists of a transmitter and receiver connected through ultrasonic t
 - Components are not waterproof
 - System was tested in air instead of underwater
 - Limited communication range
+
+  ## Team Members
+
+- Atchaya G M
+- Jaishree S V
+- Shraeya 
+- Sudharshana P S
