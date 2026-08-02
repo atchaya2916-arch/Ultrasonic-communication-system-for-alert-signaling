@@ -1,4 +1,4 @@
-# Ultrasonic Communication System for Diver–Boat Alert Signaling
+# Ultrasonic Communication System for Alert Signaling
 
 ## 🔹 Problem Statement
 Scuba divers lack a reliable, low-cost method to send emergency signals to surface boats. RF communication fails underwater due to attenuation. Existing solutions are expensive or manual.
